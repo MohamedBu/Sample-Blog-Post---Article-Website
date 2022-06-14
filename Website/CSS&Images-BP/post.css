@@ -1,0 +1,177 @@
+@import "pimg.css";
+@import "f20.css";
+@import "lists.css";
+@media (max-width: 635px) {
+    body {
+        margin: 0;
+        background-color: #f2f2f2;
+    }
+    .container {
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    .in-box {
+        font-size: 15px;
+    }
+    .home {
+        font-size: 17px;
+    }
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+    .searchBox {
+        align-items: right;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        /*grid-template-areas: "header header header header header header header header"*/
+    }
+    p a {
+        font: italic small-caps bold 10px "Times New Roman";
+        color: #8a0d0d;
+    }
+    .header {
+        background: lightblue;
+        border: 1px solid black;
+        grid-column: 1/4;
+        grid-row: 1/4;
+        text-align: center;
+        font: italic small-caps bold 50px "Times New Roman";
+    }
+    .Main-Text {
+        background: lightyellow;
+        border: 1px solid black;
+        grid-column: 1/5;
+        font: italic small-caps bold 25px "Times New Roman";
+    }
+    span {
+        font-size: 20px;
+        font-style: underline;
+    }
+    p {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: lighter;
+        font-variant: normal;
+    }
+    img {
+        width: 250px;
+        height: 150px;
+        align-self: left;
+    }
+    li {
+        font-size: 20px;
+        margin: 10px;
+        display: block;
+        text-align: center;
+    }
+    ul {
+        align-items: center;
+        font: italic small-caps bold 25px "Times New Roman";
+    }
+    .footer {
+        background: lightblue;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 45px;
+        font: italic small-caps bold 50px "Times New Roman";
+    }
+    .About {
+        background-color: lightgray;
+        font: italic small-caps bold 30px "Times New Roman";
+        text-align: center;
+        width: 330px;
+        height: 175px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 636px) {
+    body {
+        margin: 0;
+        background-color: #f2f2f2;
+    }
+    .container {
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    .in-box {
+        font-size: 20px;
+    }
+    .home {
+        font-size: 25px;
+    }
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+    .searchBox {
+        align-items: right;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 175px);
+        grid-template-rows: repeat(6, 175px);
+        /*grid-template-areas: "header header header header header header header header"*/
+    }
+    p a {
+        font: italic small-caps bold 20px "Times New Roman";
+        color: #8a0d0d;
+    }
+    .header {
+        background: lightblue;
+        border: 1px solid black;
+        grid-column: 1/6;
+        text-align: center;
+        font: italic small-caps bold 50px "Times New Roman";
+    }
+    .Main-Text {
+        background: lightyellow;
+        border: 1px solid black;
+        grid-column: 1/5;
+        grid-row: 2/7;
+        font: italic small-caps bold 25px "Times New Roman";
+    }
+    span {
+        font-size: 20px;
+        font-style: underline;
+    }
+    p {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: lighter;
+        font-variant: normal;
+    }
+    img {
+        width: 250px;
+        height: 150px;
+        align-self: left;
+    }
+    .About {
+        background-color: lightgray;
+        font: italic small-caps bold 30px "Times New Roman";
+        text-align: center;
+        width: 330px;
+        height: 700px;
+        font-size: 40px;
+    }
+    li {
+        font-size: 20px;
+        margin: 50px;
+    }
+    ul {
+        align-items: center;
+        font: italic small-caps bold 25px "Times New Roman";
+    }
+    .footer {
+        background: lightblue;
+        border: 1px solid black;
+        grid-column: 1/6;
+        grid-row: 7;
+        text-align: center;
+        font: italic small-caps bold 50px "Times New Roman";
+    }
+}

@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    height: 100vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+    /*grid-area: "header header" "Main-Text sidebar" "footer footer";*/
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header {
+    background-color: lightblue;
+    border: 1px solid black;
+    grid-column: 0/2;
+    font: italic small-caps bold 45px "Times New Roman";
+    text-align: center;
+    /*grid-area: header;*/
+}
+
+.About {
+    background-color: lightgray;
+    font: italic small-caps bold 45px "Times New Roman";
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.in-box {
+    font-size: 15px;
+}
+
+span {
+    font-size: 20px;
+    font-style: underline;
+}
+
+.home {
+    font-size: 25px;
+}
+
+.Main-Text {
+    background-color: lightgreen;
+    border: 1px solid black;
+    grid-column: 0/1;
+    grid-row: 1/2;
+    /*grid-area: Main-Text;*/
+}
+
+.boxing {
+    border: 1px solid black;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /*grid-area: Main-Text;*/
+}
+
+.sidebar {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /*grid-area: sidebar;*/
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    background-color: lightgrey;
+    border: 1px solid black;
+    grid-column: 0/2;
+    grid-row: 2/3;
+    text-align: center;
+    font: italic small-caps bold 50px "Times New Roman";
+    /*grid-area: footer;*/
+}

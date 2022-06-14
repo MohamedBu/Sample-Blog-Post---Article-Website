@@ -1,0 +1,9 @@
+li {
+    font-size: 20px;
+    margin: 25px;
+}
+
+ul {
+    align-items: center;
+    font: italic small-caps bold 25px "Times New Roman";
+}
